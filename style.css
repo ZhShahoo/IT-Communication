@@ -72,3 +72,7 @@ h1{
     color: #131200;
     font-size: 12px;
 }
+
+#Avatar{
+    border-radius: 0;
+}
