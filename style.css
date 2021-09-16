@@ -52,7 +52,7 @@ h1{
 }
 .loginbox input[type="text"], input[type="password"]{
     border:none;
-    border-bottom: 1px solid #a17c7c;
+    border-bottom: 1px solid #E50A17;
     background: transparent;
     outline: none;
     height: 40px;
