@@ -1,0 +1,36 @@
+h1{
+    color: black;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+body{
+    background-color: #90D7FF;
+}
+
+table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    border-radius: 5%;
+}
+
+#Parameters{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+}
+
+.PDF_Logo{
+    width: 25px;
+}
