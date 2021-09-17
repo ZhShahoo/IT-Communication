@@ -8,27 +8,31 @@ h1{
 }
 
 body{
-    background-color: #90D7FF;
+    background-color: #ADD8E6;
 }
 
 table{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: green;
+    background-color: black;
 }
 
 td{
     padding: 10px;
     border: 1px solid black;
     border-collapse: collapse;
-    background-color: whitesmoke;
-    border-radius: 5%;
+    background-color: white;
+    border-radius: 2%;
 }
 
-#Parameters{
-    font-weight: bolder;
-    text-align: center;
-    font-size: 18px;
+th{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #DCDCDC;
+    border-radius: 5%;
 }
 
 .PDF_Logo{
