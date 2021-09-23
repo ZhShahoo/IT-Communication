@@ -3,64 +3,90 @@
 <link rel="stylesheet" href="Home.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <head>
+
     <meta charset="UTF-8">
+
+
     <title>Mine Resultater</title>
+
+    <style>
+        .p1 {
+            font-family: "Times New Roman", Times, serif;
+        }
+        </style>
 
 
 </head>
+
+
+
 <body>
 
 <div class="menu-bar">
 
     <li class=""><a href="Home.html"><i class="fas fa-home" ></i>
-        <p></p>Home </a></li>
+        <p></p>Hjem </a></li>
 
 </div>
-
+<center>
 <h1>Mine Resultater </h1>
 
 
 <div style="margin-top:50px;">
 
-<p>
-
-
-
-
-<label for="Resultat">Vælg Resultat </label>
-<select id="Resultat" name="Resultat">
-    <option value="Blodprøver">vælg</option>
-    <option value="Blodprøver">Blodprøver</option>
-    <option value="EKG">EKG</option>
-    <option value="Urinprøver">Urinprøver</option>
-
-</select>
-
-</p>
 
 </div>
 
 <div style="margin-top:30px;">
-<p>
-
-<label for="start">Dato fra:</label>
-
-<input type="date" id="start" name="trip-start"
-       value="2018-07-22"
-       min="2018-01-01" max="2023-12-31">
-
-
-<label for="start">Dato til:</label>
-
-<input type="date" id="start" name="trip-start"
-       value="2018-07-22"
-       min="2018-01-01" max="2023-12-31">
 
 
 
-</p>
+    <p>
+
+        <label for="start">Dato fra:</label>
+
+        <input type="date" id="start" name="trip-start"
+               value="2018-07-22"
+               min="2018-01-01" max="2023-12-31">
+
+
+        <label for="start">Dato til:</label>
+
+        <input type="date" id="start" name="trip-start"
+               value="2018-07-22"
+               min="2018-01-01" max="2023-12-31">
+    </p>
+    <form action="//www.html.am/html-codes/forms/html-form-tag-action.cfm" target="result" method="get">
+        <p>Vælg Resultat</p>
+        <select name="Resultater"> <option value ="vælg"></option>
+            <option value ="Blodprøver">Blodprøver</option>
+            <option value ="EKG">EKG</option>
+            <option value ="Urinprøver">Urinprøver</option>
+
+
+
+            <show > <style>
+                table, th, td {
+                    border: 1px solid white;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    background-color: #96D4D4;
+                }
+            </style>
+
+
+            </show>
+        </select>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <h3>Resultat:</h3>
+    <iframe name="result" style="height:500px;width:1000px;">
+
+    </iframe>
 
 </div>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <style type="text/css">
         .fa_custom {
@@ -68,7 +94,7 @@
         }
     </style>
 
-<i class="fa fa-print fa_custom"></i> <a href="#" onclick="window.print();return false;">Print</a>
+</center>
 
-</body>
+<i class="fa fa-print fa_custom"></i> <a href="#" onclick="window.print();return false;">Print</a>
 </html>
