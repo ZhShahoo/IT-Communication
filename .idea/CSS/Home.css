@@ -5,6 +5,12 @@
     box-sizing: border-box;
 
 }
+.h2{
+    position: center;
+top: 20%;
+    bottom: 80%;
+    text-align: center
+}
 
 body{
     background-color: #90D7FF;
@@ -28,6 +34,10 @@ body{
     list-style-type: none;
     color: #02021d;
 
+}
+.title h1{
+    color: #ffffff;
+    font-size: 70px;
 }
 .menu-bar ul li{
 
@@ -77,4 +87,15 @@ width: 150px;
     float: left;
     width: 100px;
     height: 100px;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h2{
+    color: #ffffff;
+    font-size: 70px;
 }

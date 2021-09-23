@@ -76,3 +76,8 @@ h1{
 #Avatar1{
     border-radius: 0;
 }
+.logo img{
+    float: left;
+    width: 120px;
+    height: 110px;
+}
