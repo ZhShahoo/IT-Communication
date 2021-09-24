@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+}
+
+body{
+    background-color: #90D7FF;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+}
+.h3{
+    name:result;
+    style:height:500px;
+    width:1000px;
+}
