@@ -21,7 +21,6 @@ table{
 
 td{
     padding: 10px;
-    border: 1px solid #bb0606;
     border-collapse: collapse;
     background-color: white;
     border-radius: 2%;
@@ -29,7 +28,6 @@ td{
 
 th{
     padding: 10px;
-    border: 1px solid #f60505;
     border-collapse: collapse;
     background-color: #DCDCDC;
     border-radius: 5%;
