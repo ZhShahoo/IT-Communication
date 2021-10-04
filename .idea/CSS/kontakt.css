@@ -1,0 +1,32 @@
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+body{
+    background-color: #ADD8E6;
+}
+
+table{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: green;
+    background-color: black;
+}
+
+td{
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 2%;
+}
+
+th{
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: #DCDCDC;
+    border-radius: 5%;
+}
