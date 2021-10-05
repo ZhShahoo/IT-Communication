@@ -5,9 +5,6 @@ h1{
     font-weight: bolder;
 }
 
-body{
-    background-color: #ADD8E6;
-}
 
 table{
     width: 95%;
@@ -20,7 +17,7 @@ table{
 td{
     padding: 10px;
     border-collapse: collapse;
-    background-color: white;
+    background-color: #90D7FF;
     border-radius: 2%;
 }
 
