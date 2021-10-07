@@ -1,24 +1,28 @@
-*
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: black;
-    text-align: center;
-    font-size: 32px;
-    font-weight: bolder;
-}
-}
-
 body{
+    margin: 0;
+    padding: 0;
     background-color: #90D7FF;
+    background-size: cover;
+    font-family:sans-serif;
+    background-position:center;
+    text-align: center;
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
-    border-bottom: none;
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: #243B4A;
+
 }
-.h3{
-    name:result;
-    style:height:500px;
-    width:1000px;
+
+h3{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-weight: bolder;
+
 }
+
+
